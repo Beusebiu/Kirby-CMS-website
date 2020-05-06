@@ -1,0 +1,55 @@
+title: Site
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      drafts:
+        headline: Drafts
+        type: pages
+        layout: list
+        status: drafts
+        image:
+          cover: true
+          radio: 1/1
+
+      unlisted:
+        headline: Unlisted
+        type: pages
+        layout: list
+        status: unlisted
+        image:
+          cover: true
+          radio: 1/1
+
+      published:
+        headline: Published
+        type: pages
+        layout: list
+        status: listed
+        image:
+          cover: true
+          radio: 1/1
+
+  sidebar:
+    width: 1/3
+    sections:
+      general:
+        meta:
+        type: fields
+        fields:
+          facebookurl:
+            label: Facebook Url
+            type: url
+          twitterurl:
+            label: Twitter Url
+            type: url
+          contactemail:
+            label: Contact email
+            type: email
+          facebookpixel:
+            label: Facebook Fixel
+            type: textarea
+          googleanalitycs:
+            label: Google Analitics
+            type: textarea
